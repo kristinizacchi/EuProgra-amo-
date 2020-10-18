@@ -1,0 +1,157 @@
+body{
+  text-align:center;
+  color:#ffffff;
+  font-family:Open Sans, sans-serif;
+  background-color:#d7824b;
+  margin:30px 10px ;
+  line-height: 1.5; 
+}
+section{
+  width: 60%;
+  margin: 0 auto;
+}
+section section{
+  width: 100%;
+}
+h1{
+  font-size: 40px;
+  font-weight: 300;
+}
+h2{
+  font-size: 40px;
+  color:#094b95;
+}
+h3{
+  font-size: 30px;
+  font-style: italic;
+}
+
+p{
+  font-size: 20px;
+}
+img{
+  width: 60%;
+}
+
+.backtotop {   
+  position: absolute;
+  right: 65px;
+  width: 30px;
+  margin-right: 5%;
+  color-adjust: #009246; 
+}
+
+
+.titulo-verde{
+  color: #ffffff;
+  background-color: #009246;
+}
+.titulo-vermelho{
+  color: #ffffff;
+  background-color: #ce2b37;
+}
+.titulo-branco{
+  color:#094b95;
+  background-color: #ffffff;
+
+}
+ul{
+  list-style-type: none; 
+  line-height: 2;
+  padding-left: 0;
+}
+.linkOutros{
+  text-decoration: none;
+  color: #094b95;
+  font-weight: 700;
+  font-size: 14px;  
+}
+.linkOutros:hover{
+  background-color: #fbc088;
+  color: #ffffff;
+}
+.linkOutros:focus {
+  background-color: #fbc088;
+  color: #ffffff;
+}
+.vejamais{
+  text-decoration: none;
+  color: #094b95;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+.principal{
+  background-color: #fbc088;
+  height: 110px;
+  max-width: 40%;  
+  margin: 0 auto; 
+
+}
+
+.principal a{
+  color: white;
+  text-decoration: underline;
+  font-weight: normal; 
+}
+.principal li{
+  display:block;
+  line-height: 2.5;  
+  margin: 0 15px;
+}
+
+container{
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10%;
+}
+
+.fotosIt{
+  text-align: center;
+} 
+.imgIt{
+  margin: 10px 10px;
+}
+
+
+@media (min-width: 1000px){
+  .principal{
+    height: 40px;
+    max-width: 60%;      
+  }
+  .principal li{
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;    
+    line-height: 2.5;  
+    margin: 0 10%;
+  }
+  h1{
+    font-size: 60px;
+    font-weight: 300;
+  }
+
+  img{
+    width: 60%;
+  }
+ 
+  container{
+    width: 100%;
+    align-items: center;
+    margin: 0 15px;
+  }
+
+  .fotosIt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    margin: 0;       
+  }
+ 
+   .imgIt{
+    margin: 10px 10px;
+  }   
+}

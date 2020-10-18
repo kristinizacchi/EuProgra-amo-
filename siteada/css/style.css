@@ -1,0 +1,92 @@
+body{
+  text-align:center;
+  color:#ffffff;
+  font-family:Open Sans, sans-serif;
+  background-color:#8A71C9;
+  margin:0;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+section{
+  /*background-color: yellow;*/
+  /*width:50%;*/
+  width: 60%;
+  margin: 0 auto;
+  /*margin: 20px 40px 20px 40px; no sentido horário top, right, bottom, left*/
+  /*margin: 20px 40px; top e bottom com o primeiro valor right e left com o segundo valor*/
+  /*margin-top:20px;
+   margin-right:40px;
+   margin-bottom:20px;
+   margin-left:40px;
+   */
+   /*margin:20px; todos com a mesma medida*/
+}
+section section{
+  width: 100%;
+}
+h1{
+  font-size: 60px;
+  font-weight: 300;
+}
+h2{
+  font-size: 40px;
+  color:#2A0074;
+}
+h3{
+  font-size: 22px;
+  font-style: italic;
+}
+
+p{
+  font-size: 20px;
+}
+img{
+  width: 100%;
+}
+.titulo-verde{ /* infância #04FF9F*/
+  color:#04FF9F;
+}
+.titulo-vermelho{ /*juventude #FF9E9E*/
+  color: #FF9E9E;
+}
+.titulo-amarelo{/*vida adulta #FFE36D*/
+  color: #FFE36D;
+}
+ul{
+  list-style-type: none; /*com o valor none retira o marcador-bolinhas*/
+  line-height: 2;
+  /*por padrão as listas possuem padding para colocar o marcador - Padding é a margem interna do elemento valor que vai da borda até o texto (ou nesse caso da li que está dentro do componente ul)*/
+  padding-left: 0;
+}
+a{
+  text-decoration: none;
+  color: #99ffff;
+  font-weight: 700;
+}
+.principal{
+  background-color: #FF6CB5;
+  height: 40px;
+  max-width: 60%;  
+  margin: 0 auto; 
+
+}
+
+.principal a{
+  color: white;
+  text-decoration: underline;
+  font-weight: normal; 
+}
+.principal li{
+  /*display:block empilha os elementos
+    display:inline-block mantem os elementos alinhados um ao lado do outro*/
+  display:inline-block;
+  line-height: 2.5;  
+  margin: 0 89px;
+}
+
+button{
+  background-color: #41f341;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+}
